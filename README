@@ -1,7 +1,7 @@
 
-# cfastq3
+# scfastq
 
-cfastq3 combined I1, R1 and R2 files into a single Fastq file with new tags to be used downstream.  Chunking into multiple files is possible for downstream multiprocessing.
+scfastq combined I1, R1 and R2 files into a single Fastq file with new tags to be used downstream.  Chunking into multiple files is possible for downstream multiprocessing.
 
 | Tools | URL |
 | ------ | ------ |

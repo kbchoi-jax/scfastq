@@ -10,13 +10,13 @@ INC    = -I$(TOP)
 
 default: all
 
-all: cfastq3
+all: scfastq
 
-cfastq3: cfastq3.c
-	$(CC) $(CFLAGS) $(LIBS) -o cfastq3 cfastq3.c
+scfastq: scfastq.c
+	$(CC) $(CFLAGS) $(LIBS) -o scfastq scfastq.c
 
 clean :
-	$(RM) cfastq3
-	$(RM) -r cfastq3.dSYM
+	$(RM) scfastq
+	$(RM) -r scfastq.dSYM
 
 
