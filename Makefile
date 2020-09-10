@@ -13,7 +13,7 @@ default: all
 all: scfastq
 
 scfastq: scfastq.c
-	$(CC) $(CFLAGS) $(LIBS) -o scfastq scfastq.c
+	$(CC) $(CFLAGS) -o scfastq scfastq.c $(LIBS)
 
 clean :
 	$(RM) scfastq
