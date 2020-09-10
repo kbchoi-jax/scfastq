@@ -255,6 +255,8 @@ int main(int argc, char **argv) {
     int nFiles = 0;
 
     while (kseq_read(seqR1) >= 0) {
+        kseq_read(seqR3);
+
         if (fourFiles) {
             kseq_read(seqI1);
             kseq_read(seqR2);
